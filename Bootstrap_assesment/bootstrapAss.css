@@ -1,0 +1,196 @@
+body {
+    background-color: #435fef
+}
+
+.signupButton {
+    background-color: #fdf03d
+}
+
+.starSymbol {
+    padding-left: 100px;
+    color: #fdf03d;
+    font-size: 100px
+}
+
+.companyLogo {
+    padding-left: 50px
+}
+
+.mainContent h1 {
+    font-size: 80px
+}
+
+.atmImage {
+    border-radius: 10px
+}
+
+.createAccountImage {
+    border-radius: 10px;
+    position: relative;
+    left:250px;
+}
+
+.totalIncomeImage {
+    border-radius: 15px
+}
+
+.subContent p {
+    font-size: 22px
+}
+
+body,
+html {
+    height: 100%
+}
+
+.duplicateAtm {
+    display: none
+}
+
+.totalIncomeImage {
+    width: 238px;
+    height: 100px;
+    top: 112px;
+    right: 0;
+    left:350px;
+    position: relative
+}
+
+@media only screen and (min-width:768px) and (min-height:1024px) {
+    .pictures {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly
+    }
+
+    .atmImage {
+        display: none
+    }
+
+    .createAccountImage {
+        width: 331px;
+        height: 50px;
+        bottom: 0;
+        left: 128px;
+        border-radius: 10px;
+        position: relative
+    }
+
+    .totalIncomeImage {
+        width: 238px;
+        height: 100px;
+        top: 79px !important;
+        right: 0;
+        position: relative !important
+    }
+
+    .duplicateAtm {
+        display: block;
+        width: 247px;
+        height: 157px;
+        position: relative;
+        display: block;
+        top: 49px
+    }
+
+    .mainContent h1 {
+        width: 723px;
+        font-size: 67px
+    }
+
+    .divider a {
+        display: none
+    }
+
+    .starSymbol {
+        font-size: 100px;
+        color: #ff0;
+        width: 80px;
+        height: 100px;
+        position: relative;
+        left: 540px;
+        margin-top: 47px
+    }
+}
+
+.signupButton {
+    display: block
+}
+
+.totalIncomeImage {
+    position: relative;
+    top: 35px
+}
+
+@media only screen and (max-width:700px) {
+    .pictures {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly
+    }
+
+    .pictures img {
+        position: relative
+    }
+
+    .nav-button {
+        display: none
+    }
+
+    .container-fluid {
+        gap: 120px
+    }
+
+    .atmImage {
+        display: none
+    }
+
+    .createAccountImage {
+        width: 331px;
+        height: 50px;
+        top: 38px;
+        left: 128px;
+        border-radius: 10px
+    }
+
+    .totalIncomeImage {
+        width: 230px;
+        height: 83px;
+        top: 150px;
+        right: 42px;
+        border-radius: 10px
+    }
+
+    .duplicateAtm {
+        display: block;
+        width: 200px;
+        height: 135px;
+        position: relative;
+        display: block;
+        top: 49px
+    }
+
+    .mainContent h1 {
+        width: 361px;
+        font-size: 35px
+    }
+
+    .starSymbol {
+        font-size: 100px;
+        color: #ff0;
+        width: 80px;
+        height: 100px;
+        position: relative;
+        left: 213px;
+        margin-top: 2px
+    }
+
+    .subContent p {
+        font-size: 14px;
+        width: 284px
+    }
+
+    .nav-link {
+        display: block
+    }
+}
