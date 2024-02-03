@@ -1,0 +1,138 @@
+
+
+@media  only screen and (min-width:390px) and (min-height:852px) 
+{
+    .navBar1 img{
+        width: 120px;
+        height: 30px;
+        
+    }
+    
+    .navHome{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 24px;
+    }
+    .navBar1{
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        left:-32px;
+    }
+    .navBar2     {
+        display: flex;
+        text-decoration: none;
+        gap:60px;
+        display: none;
+    }.navBar2 li a{
+        text-decoration: none;
+        color: aliceblue;
+    }
+    .navBar2 li {
+        list-style-type: none;
+        
+    }
+    li a span{
+        padding-left: 5px;
+        position: relative;
+        top:-2px;
+    }
+    .menuToggle{
+        display: flex;
+        color: aliceblue;
+        font-size: 25px;
+        align-items: center;
+        margin-top: 6px;
+        justify-content: space-evenly;
+        margin-left: 75px;
+    }
+    .navBar3 {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: relative;
+        right: -87px;
+        display: none;
+    }
+    .signup{
+        border-radius: 15px;
+        width: 150px;
+        height: 40px;
+        color:black;
+        background-color: yellow;
+        
+        
+    }
+    .content1{
+        font-size: 60px;
+        color: yellow;
+        width: 80px;
+        height: 100px;
+        position: relative;
+        left:38px;
+        top: 116px;
+    }
+    .content2{
+        color: aliceblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 362px;
+        height: 100px;
+        padding-left: 20px;
+        padding-top: 130px;
+    }
+    .point1{
+        font-size: 22px;
+        width: 356px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .point2{
+        font-size: 17px;
+        text-align: center;
+        width: 333px;
+        opacity: 0.8;
+        padding-top: 21px;
+    }
+    .imageContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 367px;
+    }
+    .image1{
+        width: 200px;
+        height: 150px;
+        position: relative;
+        top:-370px;
+        left:114px;
+        right: 5px;
+    }
+    .image2{
+        width: 273px;
+        height: 66px;
+        position: relative;
+      top:88px;
+      left:20px;
+    }
+    .image3{
+        width: 230px;
+        height: 83px;
+        position: relative;
+        top: 82px;
+        right: 158px;
+    }
+}
+
+
+
+
+
+
+
+
+
+ 
